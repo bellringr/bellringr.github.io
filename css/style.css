@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+
+body {
+    background-color: #F4F4ED;
+    color: #51291E;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.05em;
+}
+
+/*
+
+BOXES
+
+*/
+
+#content {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #487A5F;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1px;
+}
+
+.pic {
+    float: right;
+}
+
+img {
+    width: 170px;
+    border-radius: 200px;
+    filter: grayscale(100%);
+}
+
+footer {
+    background-color: #E5DFCC;
+    font-size: 85%;
+    color: #51291E;
+    text-align: center;
+    padding: 10px;
+}
+
+/*
+
+HEADINGS
+
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Alata', Futura, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: #F4F4ED;
+    font-size: 3.75em;
+}
+
+h2 {
+    color: #51291E;
+    font-size: 1.75em;
+}
+
+/*
+
+LINKS
+
+*/
+
+a {
+    color: #487A5F;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+a:active,
+a:hover {
+    color: #51291E;
+}
+
+/*
+
+THE REST
+
+*/
+
+ul {
+    list-style-type: square;
+}
