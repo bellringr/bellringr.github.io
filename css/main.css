@@ -26,7 +26,10 @@ header {
 }
 
 .pic {
-    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
 }
 
 img {
