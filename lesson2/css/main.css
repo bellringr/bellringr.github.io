@@ -14,7 +14,7 @@ BOXES
 */
 
 #content {
-    max-width: 768px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -25,15 +25,26 @@ header {
     padding: 1px;
 }
 
-img {
-    display: block;
-    margin-top: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    filter: grayscale(100%);
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section {
+    margin: 0;
+    display: inline;
+}
+
+.boxtop {
+    background-color: #ADCCC6;
+    color: #51291E;
+    text-align: center;
+    font-family: 'Alata', Futura, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 2.75em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    
 }
 
 footer {
@@ -75,6 +86,38 @@ h2 {
 
 /*
 
+PARAGRAPH STYLES
+
+*/
+
+.captext {
+    background-color: #ADCCC6;
+    font-style: italic;
+    font-size: 1.25em;
+    text-align: center;
+    margin-top: -0.025em;
+    padding: 0.5em;
+}
+
+.captext a {
+    color: #51291E;
+    font-weight: normal;
+}
+
+.captext a:hover {
+    color: #487A5F;
+}
+
+.description {
+    font-size: 1.25em;
+    margin-top: -0.5em;
+    padding-left: 8px;
+    padding-right: 8px;
+    letter-spacing: .25pt;
+}
+
+/*
+
 LINKS
 
 */
@@ -96,6 +139,11 @@ a:hover {
 THE REST
 
 */
+
+img {
+    width: 100%;
+    margin: 0 auto;
+}
 
 ul {
     list-style-type: square;

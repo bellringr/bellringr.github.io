@@ -1,0 +1,23 @@
+@media screen and (min-width: 60em) {
+
+    h2 {
+        text-align: left;
+        margin-top: 1em;
+    }
+
+    .boxtop {
+        font-size: 1.75em;
+    }
+
+    .description {
+        font-size: 1em;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section:nth-child(3) {
+        grid-column: span 1;
+    }
+}
