@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,400i,700&display=swap');
+
+body {
+    background-color: #fff;
+    font-family: 'DM Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #6b6be0;
+    font-family: 'Shrikhand', 'Times New Roman', serif;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    padding: 0.25em;
+}
+
+header img {
+    width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #474554;
+    color: #fff;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0.25em;
+}
+
+main header {
+    background-color: #da4046;
+    font-size: 2em;
+    padding: 8px;
+}
+
+main p {
+    margin: 8px;
+}
+
+main a {
+    color: #6b6be0;
+}
+
+main a:visited {
+    color: #da4046;
+}
+
+footer {
+    background-color: #fff;
+    color: #474554;
+    font-size: 0.85em;
+    font-style: italic;
+    text-align: center;
+    padding-top: 8px;
+}
+
+h1,
+h2 {
+    font-family: 'Shrikhand', 'Times New Roman', serif;
+}
+
+h1 {
+    color: #6b6be0;
+}
+
+h2 {
+    color: #474554;
+}
+
+h3 {
+    font-family: 'DM Sans', Helvetica, Arial, sans-serif;
+    color: #da4046;
+}
+
+/* color demonstrations */
+
+/* there's probably a way better way to do this lol */
+
+.colordemo {
+    font-weight: bold;
+    text-align: center;
+    padding: 4px;
+    line-height: 0.5em;
+}
+
+#blue {
+    background-color: #6b6be0;
+    color: #fff;
+}
+
+#slate {
+    background-color: #474554;
+    color: #fff;
+}
+
+#red {
+    background-color: #da4046;
+    color: #fff;
+}
+
+
+/* typography demos */
+
+#typedemo {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#linkdemo {
+    color: #6b6be0;
+    text-decoration: underline;
+}
+
+#linkdemovisited {
+    color: #da4046;
+    text-decoration: underline;
+}
