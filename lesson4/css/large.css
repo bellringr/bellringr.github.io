@@ -1,0 +1,11 @@
+@media screen and (min-width: 60em) {
+    .forecast {
+        display: block;
+        width: 100%;
+        background-color: #aca9bb;
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
